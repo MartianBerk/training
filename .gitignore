@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Exercism
+.exercism
+
+# Ignore make files (may need to unlock some things here over time)
+*Make*
+!CMakeLists.txt
