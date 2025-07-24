@@ -52,12 +52,18 @@ def calculate_distance(list1, list2):
 
 def calculate_similarity(list1, list2):
     seen = {}
+
+    # Iterate first through first list to capture unique numbers
     for i in list1:
         if i not in seen:
             seen[i] = 0
 
         seen[i] += 1
 
+    # Now iterate through the second list, matching on seen and 
+    # applying the similarity algorithm: j * m * n where
+    # m equals the number of times j seen in the first list and
+    # n equals the number of times j seen in second list
     total_similarity = 0
     for i, j in enumerate(list2):
         if j not in seen:
