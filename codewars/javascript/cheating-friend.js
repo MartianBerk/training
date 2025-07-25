@@ -15,6 +15,7 @@
  * For each of these we need to know a & b, so the brute force loop is required.
  * - b = (S - a) / (a + 1)
  * But here we calculate b based on a, so we only need to loop through a.
+ * This rearragement follows simplifying expressions with integer exponents and algebraic manipulation.
 */
 
 function sum1ToN(n) {
