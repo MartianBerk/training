@@ -21,5 +21,5 @@ int preparationTime(int numberOfLayers) {
 // elapsedTime calculates the total time spent to create and bake the lasagna so
 // far.
 int elapsedTime(int numberOfLayers, int actualMinutesInOven) {
-    return preparationTime(numberOfLayers) + remainingOvenTime(actualMinutesInOven);
+    return preparationTime(numberOfLayers) + actualMinutesInOven;
 }
