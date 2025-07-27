@@ -15,11 +15,11 @@ Using this site to tackle Python and Javascript problems. All solutions are subm
 Less about problem solving, more about tutorials to follow Javascript fundamentals and web development.
 
 <h3>Exercism</h3>
-C++ problems. They provide a CLI which I have installed to complete the problem, test and submit. Each problem will need these steps performed:
+C++ problems & Python. They provide a CLI which I have installed to complete the problem, test and submit. Each problem will need these steps performed:
 
 ``` shell
-exercism download --track=cpp --exercise=NAME. # download the exercise
-cmake Xcode .  # compile the solution
+exercism download --track=LANG --exercise=NAME. # download the exercise for c++ or python
+cmake Xcode .  # compile the solution (for C++ only)
 exercism test  # run tests
 exercism submit  # submit
 ```
